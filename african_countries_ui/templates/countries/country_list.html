@@ -12,7 +12,7 @@
     <ul class="list-group">
         {% for country in countries %}
         <li class="list-group-item">
-            <a href="{% url 'get_country' country['name'] %}">{{country['name']}}</a>
+            <a href="{% url 'get_country' country.name %}">{{country.name}}</a>
         </li>
         {% endfor %}
     </ul>

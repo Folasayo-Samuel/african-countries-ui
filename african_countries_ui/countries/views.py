@@ -3,7 +3,7 @@ from requests.exceptions import RequestException
 from django.shortcuts import render
 from django.http import Http404
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "http://127.0.0.1:8080"
 
 # View to get random African countries.
 def country_list(request):
